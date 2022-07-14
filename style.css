@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.espaço3D {
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    perspective: 1500px;
+    transform-style: preserve-3d;
+    perspective-origin: center;
+    position: relative;
+    background-image: url('tecido.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.capa1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    height: 400px;
+    width: 300px;
+    transform: translateZ(400px);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+    transform-origin: center left;
+    transform-style: preserve-3d;
+}
+
+.capa1 .frente{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('textura.jpg');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    flex-direction: column;
+}
+
+.capa1 .costa{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-image:url('livrocosta.jpg');
+}
+
+.capa2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    height: 400px;
+    width: 300px;
+    transform: translateZ(390px);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+    transform-origin: center left;
+    transform-style: preserve-3d;
+}
+
+.capa2 .frente{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('livrocosta.jpg');
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    flex-direction: column;
+}
+
+.capa2 .costa{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-image:url('textura.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.folha{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+    height: 395px;
+    width: 295px;
+    transform: translateZ(395px);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+    transform-origin: center left;
+    transform-style: preserve-3d;
+}
+
+.folha .frente{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    flex-direction: column;
+}
+
+.folha .costa{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background:white;
+    transform: rotateY(180deg);
+}
+
+.tituloLivro{
+    width: 160px;
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+}
+
+.subTituloLivro{
+    color: rgb(255, 186, 36);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}

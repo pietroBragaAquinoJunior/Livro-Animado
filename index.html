@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Livro Animado</title>
+</head>
+
+<body>
+    <div class="espaço3D">
+        <div style="position: absolute; top:50%; left:50%; margin-top:-100px; margin-left:-100px; width:200px; background:linear-gradient(#fff,rgb(90, 90, 90)); padding:10px; border-radius: 10px;">
+            <img style="width:100%;" src="./gon.gif" alt="">
+            <p style="text-align: center; font-weight: bold; color:white;">Criado por Piêtro Braga Aquino Júnior!</p>
+        </div>
+        <div class="capa1" onclick="passarCapa(this)">
+            <div class="frente">
+                <h1 class="tituloLivro">Como se tornar um desenvolvedor Front End</h1>
+                <p class="subTituloLivro">Em 2022</p>
+            </div>
+            <div class="costa"></div>
+        </div>
+        <div class="folha" onclick="passarFolha(this)">
+            <div class="frente">
+                <img style="width:100%;" src="./killua.gif" alt="">
+                <p style="text-align: center;">Agora o poder está nas suas mãos!</p>
+            </div>
+            <div class="costa"></div>
+        </div>
+        <div class="folha" onclick="passarFolha(this)">
+            <div class="frente">
+                <img style="width:50px; height:50px;" src="./next.png" alt="">
+                <p>Aprenda NextJS!</p>
+            </div>
+            <div class="costa"></div>
+        </div>
+        <div class="folha" onclick="passarFolha(this)">
+            <div class="frente">
+                <img style="width:50px; height:50px;" src="./react.png" alt="">
+                <p>Aprenda React!</p>
+            </div>
+            <div class="costa"></div>
+        </div>
+        <div class="folha" onclick="passarFolha(this)">
+            <div class="frente">
+                <img style="width:50px; height:50px;" src="./js.png" alt="">
+                <p>Aprenda Javascript!</p>
+            </div>
+            <div class="costa"></div>
+        </div>
+        <div class="folha" onclick="passarFolha(this)">
+            <div class="frente">
+                <img style="width:50px; height:50px;" src="./css.png" alt="">
+                <p>Aprenda CCS3!</p>
+            </div>
+            <div class="costa"></div>
+        </div>
+        <div class="folha" onclick="passarFolha(this)">
+            <div class="frente">
+                <img style="width:50px; height:50px;" src="./html5.png" alt="">
+                Aprenda HTML5! 
+            </div>
+            <div class="costa"></div>
+        </div>
+        <div class="capa2" onclick="passarUltimaCapa(this)">
+            <div class="frente"></div>
+            <div class="costa"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
