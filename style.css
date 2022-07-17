@@ -11,7 +11,7 @@
     transform-style: preserve-3d;
     perspective-origin: center;
     position: relative;
-    background-image: url('tecido.jpg');
+    background-image: url('madeira.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +44,7 @@
     width: 100%;
     position: absolute;
     z-index: 3;
-    background-image: url('textura.jpg');
+    background-image: url('capa.png');
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
@@ -61,7 +61,7 @@
     width: 100%;
     position: absolute;
     z-index: 2;
-    background-image:url('livrocosta.jpg');
+    background: #781C1B;
 }
 
 .capa2 {
@@ -91,7 +91,7 @@
     width: 100%;
     position: absolute;
     z-index: 3;
-    background-image: url('livrocosta.jpg');
+    background: #781C1B;
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
@@ -108,9 +108,10 @@
     width: 100%;
     position: absolute;
     z-index: 2;
-    background-image:url('textura.jpg');
+    background-image:url('capa.png');
     background-size: cover;
     background-position: center;
+    transform: rotateY(180deg);
 }
 
 .folha{
@@ -166,11 +167,13 @@
     color: whitesmoke;
     font-size: 16px;
     text-align: center;
+    text-shadow: 0 0 10px #ffd967;
 }
 
 .subTituloLivro{
-    color: rgb(255, 186, 36);
+    color: #ebc555;
+    text-shadow: 0 0 10px #ffd967;
     text-align: center;
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: bold;
 }
