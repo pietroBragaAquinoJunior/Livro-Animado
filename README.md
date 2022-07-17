@@ -1,6 +1,6 @@
 **Livro Animado**
 
-<img src="https://user-images.githubusercontent.com/85259321/178920494-076a1b99-7e1f-4feb-873b-4a287fc31498.gif" style='width:400px' />
+<img src="https://user-images.githubusercontent.com/85259321/179426152-5e6ed30d-fd59-4f0b-bade-c8920ce52901.gif" style='width:400px' />
 <a href="https://pietrobragaaquinojunior.github.io/Livro-Animado/">https://pietrobragaaquinojunior.github.io/Livro-Animado/</a>
 
 - [x] HTML5
